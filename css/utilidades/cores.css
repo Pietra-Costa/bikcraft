@@ -12,6 +12,7 @@
     --cor-2: #EDEDED;
     --cor-1: #F7F7F7;
     --cor-0: #FFFFFF;
+    --cor-p1: #ffb000 
 }
 
 .cor-12 {
@@ -65,3 +66,5 @@
 .cor-0 {
     color: var(--cor-0);
 }
+
+.cor-p1{ color: var(--cor-p1); }
