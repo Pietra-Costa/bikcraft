@@ -18,11 +18,29 @@
     padding: 16px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    max-width: max-content;
+}
+
+.botao.secundario{
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--cor-2);
+    background: var(--cor-10);
+    font-weight: 600;
+    line-height: 1.33;
+    padding: 16px 32px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    max-width: max-content;
 }
 
 
 .botao:hover{
     background: linear-gradient(#FFB60d, #e59317);
+}
+
+.botao.secundario:hover{
+    background: var(--cor-9);
 }
 
 .link{
